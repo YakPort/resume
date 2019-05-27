@@ -2,12 +2,15 @@
 
 
 /* ----------------------------------------------------------Colour */
+
 .bg-color-name-title {
     background-color: #FF513F;
 }
+
 .ui-menu-color-home {
     background-color: #5689CC;
 }
+
 .ui-menu-color-resume {
     background-color: #3B4F51;
 }
@@ -19,7 +22,33 @@
 .ui-menu-color-download {
     background-color: #3B4F51;
 }
+
+/* ----------------------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0%;
+    
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /* ----------------------------------------------------------Heading */
+
 header {
     margin: 0;
 }
@@ -63,11 +92,107 @@ header {
 }
 
 .menucontainer {
-    font-size:0;
+    font-size: 0;
 }
+
+
+/*https://css-tricks.com/fighting-the-space-between-inline-block-elements/*/
 
 #nav li {
     font-size: 20px;
     padding: 0;
 }
 
+.menuitem {
+    height: 120px;
+    /* third of profile picture height which is 360px */
+    text-align: center;
+    padding: 0;
+
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    color: #fafafa;
+    display: block;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px
+}
+
+#nav {
+    margin: 0;
+}
+
+
+/* ----------------------------------------------------------hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+
+/* ----------------------------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #FF513F;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 24px 0px;
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+
+
+.social-links li a i:hover {
+    background-color: #FF513F;
+}
+
+#footer-details {
+    padding: 20px;
+}
