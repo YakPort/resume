@@ -4,7 +4,7 @@
 /* ----------------------------------------------------------Colour */
 
 .bg-color-name-title {
-    background-color: #4293B3;
+    background-color: #007bff;
 }
 
 .bg-color-three-reasons {
@@ -12,7 +12,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #78D9FF;
+    background-color: #E86954;
 }
 
 .ui-menu-color-resume {
@@ -31,6 +31,9 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+    background-color: #f4f4f4;
+}
 /* ----------------------------------------------------------Special paddings/margins/text */
 
 h1,
@@ -72,6 +75,7 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
 
 /* ----------------------------------------------------------Heading */
 
@@ -270,4 +274,35 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+
+/* ----------------------------------------------------------skills*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 8px
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    color: #fafafa;
+    padding: 3px 30px 2px 10px;
+    background-color: rgba(25,25,25,0.2)
+
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/* ----------------------------------------------------------work history*/
+
+
+.history-heading {
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
