@@ -32,7 +32,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #f4f4f4;
+    background-color: #fafbfc;
 }
 /* ----------------------------------------------------------Special paddings/margins/text */
 
@@ -76,6 +76,13 @@ h4 {
     margin-bottom: 40px;
 }
 
+.history-heading,
+.section-heading {
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 
 /* ----------------------------------------------------------Heading */
 
@@ -303,6 +310,48 @@ footer {
 
 
 .history-heading {
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    color: #24292e;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #24292e;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #24292e;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
