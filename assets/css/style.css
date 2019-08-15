@@ -409,3 +409,18 @@ div#map {
 ::selection {
     background: #ffe500;
 }
+.center-form {
+padding-top: 30px;
+min-height: 240px;
+max-width: 50%;
+margin: auto;
+text-align: center;
+}
+
+#gh-username {
+    padding: 5px 8px;
+    font-size: 1.4em;
+    color: #666;
+    max-width: 550px;
+    margin-bottom: 15px;
+}
