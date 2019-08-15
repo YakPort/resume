@@ -44,7 +44,7 @@
 }
 
 .ui-menu-color-interests {
-    background-color: #e74c3c;
+    background-color: #3B4F51;
 }
 
 /* ----------------------------------------------------------Special paddings/margins/text */
@@ -406,3 +406,6 @@ div#map {
         margin: 0 auto;  /* how to center content */
         max-width: 50%;
     }
+::selection {
+    background: #ffe500;
+}
